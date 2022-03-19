@@ -1,0 +1,137 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url(img/fon.jpg) no-repeat center top /cover;
+}
+
+
+header a{
+  color: #000;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu li {
+    margin-right: 139px;
+    list-style-type: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 36px;
+}
+.f{
+    height: 300px;
+}
+.round{
+    width: 237px;
+    height: 224px;
+    border-radius: 600px;
+    margin-top: 50px;
+    height: 250px;
+    margin-left: 250px;
+}
+
+.about{
+    height: 946px;
+}
+
+.minf{
+    text-align:  center;
+}
+
+section li{
+    background: url(img/mark.png) no-repeat; 
+	padding-left:70px;
+    margin-bottom: 51px;
+    font-size: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.big{
+    font-size: 36px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.mins{
+    font-size: 16px;
+}
+
+.medium{
+    font-size: 20px;
+    margin-top: 42px;
+}
+
+.footer{
+    background: #000;
+    height:393px;
+    color: #fff;
+    text-align: center;
+}
+
+.but{
+    margin-left: 45%;
+    padding-top: 100px;
+}
+
+
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+
+.vk a:hover {background: #5d84ae; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+
+.city{
+    font-size: 36px;
+    margin-bottom: 39px;
+    margin-top: 100px;
+}
+
+.email{
+    font-size: 18px;
+}
+ .email a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+ }

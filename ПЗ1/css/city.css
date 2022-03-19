@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.header{
+	background: url(../img/fon.jpg) no-repeat center top /cover;
+	height: 144px;
+	text-align: center;
+}
+
+.h{
+	padding-top: 56px;
+	text-align: center;
+}
+
+.pic{
+	height: 2500px;
+}
+
+p{
+	text-align: center;
+}
+
+.r{
+	border-radius: 10px;
+	box-shadow: 0 0 7px 3px #1128f7;
+	text-indent: 30px;
+	padding: 10px 20px 10px 20px;
+	margin: 20px auto;
+	width: 700px;
+	text-align: center;
+}
+
+.ram{ 
+	border-radius: 10px;
+	box-shadow: 0 0 7px 3px #1128f7;
+	text-indent: 30px;
+	padding: 10px 20px 10px 20px;
+	margin: 20px auto;
+	width: 400px;
+	text-align: center;
+	}
+
+li {
+	list-style-type: none;
+}
+ul, li {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.footer{
+	background: #000;
+	height:393px;
+	color: #fff;
+	text-align: center;
+}
+
+.but{
+	margin-left: 45%;
+	padding-top: 100px;
+	color: #fff;
+}
+
+.social a {
+	text-align: center;
+	width: 48px;
+	height: 48px;
+	float: left;
+	background: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+	border-radius: 6px;
+	margin: 0 10px 10px 0;
+	padding: 6px;
+	color: #000;
+}
+
+.bk{
+	text-align: center;
+	margin-top: 5%;
+	margin-left: -3%;
+}
+
+.bk a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
