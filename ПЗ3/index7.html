@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.menu5 {height: 200px;}
+.menu5 ul{list-style-type: none;}
+.menu5 li{margin-right: 4px; float: left;}
+.menu5 a:link, .menu5 a:visited{
+    filter: opacity(0.4)grayscale(1);
+	text-decoration: none;
+    display: inline-grid;
+	color: rgb(201, 201, 201);
+	font: 14px Arial;
+    padding-left: 10px;
+	padding-bottom: 10px;
+
+}
+.menu5 a:hover{
+	color: rgb(0, 129, 231);
+    filter: none;
+	
+}
+
+.menu5 img {
+    background: url(..img/plane.png);
+    height: 60px;
+    width: 60px;
+    color: rgb(201, 201, 201);
+}
+.menu5 a:hover img {
+    color: rgb(0, 129, 231);
+}
+
+#move{
+    top: 10%;
+    left: 5%;
+    position: absolute;
+}
+.mv{
+    display: inline-block;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="menu5">
+        <ul>
+            <li>
+                <a href="#"> <img src="img/tour2.png" alt="">Авиабилеты </a>
+            </li>
+            <li>
+                <a href="#"> <img src="img/tour1.png" alt=""> Чартеры </a>
+            </li>
+            <li>
+                <a href="#"><img src="img/tour3.png" alt="">ж/д билеты </a>
+            </li>
+            <li>
+                <a href="#"><img src="img/tour4.png" alt="">Гостиницы </a>
+            </li>
+            <li>
+                <a href="#"><img src="img/tour5.png" alt="">Туризм</a>
+            </li>
+        </ul>
+    </div>
+    <p id="move">
+        <a href="index6.html" class="mv"> Предыдущее задание </a>
+        <a href="index8.html" class="mv"> Следующее задание </a>
+    </p>
+</body>
+</html>

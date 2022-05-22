@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.menu5 ul{list-style-type: none;}
+.menu5 li{margin-right: 4px; float: left;}
+.menu5 a:link, .menu5 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+.menu5 a:hover, .menu5 a.active{
+	color: white;
+    background: rgb(72, 72, 72);
+    border: 1px solid rgb(47, 47, 47);
+	
+}
+
+#move{
+    top: 10%;
+    left: 5%;
+    position: absolute;
+}
+.mv{
+    display: inline-block;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="menu5">
+        <ul>
+            <li>
+                <a href="#">Главная </a>
+            </li>
+            <li>
+                <a href="#">Новости </a>
+            </li>
+            <li>
+                <a href="#">Контакты </a>
+            </li>
+            <li>
+                <a href="#">О компании </a>
+            </li>
+            <li>
+                <a href="#">Как добраться </a>
+            </li>
+        </ul>
+    </div>
+    <p id="move">
+        <a href="index5.html" class="mv"> Предыдущее задание </a>
+        <a href="index7.html" class="mv"> Следующее задание </a>
+    </p>
+</body>
+</html>
